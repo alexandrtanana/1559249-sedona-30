@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Танана](https://up.htmlacademy.ru/htmlcss/30/user/1559249).
-* Наставник: Александр Панасюк
+* Наставник:[Александр Панасюк](https://htmlacademy.ru/profile/sasha_oldsport).
 
 ---
 
