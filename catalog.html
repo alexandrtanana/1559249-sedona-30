@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Гостиницы</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="" rel="stylesheet" />
     <link rel="icon" href="favicon.ico" />
     <link rel="icon" href="favicon/32.png" type="image/png+×ml" />
     <link rel="apple-touch-icon" href="favicon/32.png" />
     <link rel="manifest" href="manifest.webmanifest" />
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="index.html">
+  <body class="page-body">
+    <header class="main-header">
+      <nav class="main-navigaton">
+        <a class="main-header-logo" href="index.html">
           <img
             src="img/logo.svg"
             width="138"
@@ -20,50 +26,50 @@
             alt="Логотип города Седона"
           />
         </a>
-        <ul>
-          <li><a href="#">Информация</a></li>
-          <li><a href="#">Фото и видео</a></li>
-          <li><a href="#">Карта штата</a></li>
-          <li><a href="#">Гостиницы</a></li>
+        <ul class="site-navigation">
+          <li><a href="blank.html">Информация</a></li>
+          <li><a href="blank.html">Фото и видео</a></li>
+          <li><a href="blank.html">Карта штата</a></li>
+          <li><a href="blank.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
+    <main class="container">
+      <section class="filter">
         <!-- <form></form>-->
       </section>
       <h1>Найдено:3</h1>
-      <section>
-        <ul>
+      <section class="result">
+        <ul class="result-list">
           Сортировка:
-          <li>
-            <a href="#">По цене</a>
+          <li class="result-item">
+            <a href="blank.html">По цене</a>
           </li>
-          <li>
-            <a href="#">По типу</a>
+          <li class="result-item">
+            <a href="blank.html">По типу</a>
           </li>
-          <li>
-            <a href="#">По рейтингу</a>
+          <li class="result-item">
+            <a href="blank.html">По рейтингу</a>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="hotel">
         <h1>Amara Resort & Spa</h1>
         <h3>Гостиница</h3>
         <h3>От 4000 р.</h3>
         <img src="img/Layer 21.jpg" width="135" height="90" alt="Гостиница" />
-        <a href="#">Подробнее</a>
-        <a href="#">Забронировать</a>
+        <a href="blank.html">Подробнее</a>
+        <a href="blank.html">Забронировать</a>
       </section>
-      <section>
+      <section class="motel">
         <h1>Desert Quail Inn</h1>
         <h3>Мотель</h3>
         <h3>От 3000 р.</h3>
         <img src="img/Layer 89 copy.jpg" width="135" height="90" alt="Мотель" />
-        <a href="#">Подробнее</a>
-        <a href="#">Забронировать</a>
+        <a href="blank.html">Подробнее</a>
+        <a href="blank.html">Забронировать</a>
       </section>
-      <section>
+      <section class="apartament">
         <h1>Villas at Poco Diablo</h1>
         <h3>Апартаменты</h3>
         <h3>От 2000 р.</h3>
@@ -73,23 +79,27 @@
           height="90"
           alt="Апартаменты"
         />
-        <a href="#">Подробнее</a>
-        <a href="#">Забронировать</a>
+        <a href="blank.html">Подробнее</a>
+        <a href="blank.html">Забронировать</a>
       </section>
     </main>
-    <footer>
-      <section>
+    <footer class="main-footer">
+      <section class="footer-contacts">
         #Visitsedona
-        <p><a href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a></p>
+        <p>
+          <a class="footer-phone" href="tel:+74956660166"
+            >ТЕЛ: +7(495) 666-01-66</a
+          >
+        </p>
       </section>
-      <section>
-        <a href="#">Twitter</a>
-        <a href="#">Facebook</a>
-        <a href="#">YouTube</a>
+      <section class="footer-social">
+        <a class="social-button" href="blank.html">Twitter</a>
+        <a class="social-button" href="blank.html">Facebook</a>
+        <a class="social-button" href="blank.html">YouTube</a>
       </section>
-      <section>
-        website by html<br />
-        academy
+      <section class="footer-copyright">
+        website by
+        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
       </section>
     </footer>
   </body>
