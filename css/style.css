@@ -4,6 +4,7 @@
     background: #EEEEEE;
     background: #766357;
     background: #F2F2F2;
+    background: #333333;
 
     background: #888888;          
 }
@@ -27,20 +28,6 @@ body {
     background-repeat: no-repeat;
 }
 
-h2{
-    text-align: center;
-    font-size: 21px;
-    line-height: 26px;
-    background-color: #FFFFFF;
-}
-
-h4{
-    text-align: center;
-    font-size: 14px;
-    line-height: 26px;
-    background-color: #FFFFFF;
-}
-
 a {
     text-decoration: none;
 }
@@ -48,6 +35,28 @@ a {
 img {
     max-width: 100%;
     height: auto;
+}
+
+
+
+/*sedona*/
+.sedona{
+    text-align: center;
+    background-color: #FFFFFF;   
+}
+
+.sedona h2{ 
+    text-align: center;
+    font-size: 21px;
+    line-height: 26px;  
+    color: #000000;  
+}
+
+.sedona h4{ 
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
 }
 
 
@@ -72,7 +81,6 @@ img {
     background-color: var(--basic-black);
 }
   
-  
 .site-navigation a,
 .user-navigation a {
     color: var(--basic-white);
@@ -95,15 +103,13 @@ img {
 
 .cause1-item {
     text-align: center;
-}
-
-h3{
-    font-size: 21px;
+    color: #FFFFFF;
+    font-size: 14px;
     line-height: 21px;
 }
 
-.cause1-item {
-    font-size: 14px;
+.cause1-item  h3{
+    font-size: 21px;
     line-height: 21px;
 }
 
@@ -116,6 +122,13 @@ h3{
     text-align: center;
     font-size: 14px;
     line-height: 21px;
+    color: #FFFFFF;
+}
+
+.cause2-item h3{
+    text-align: center;
+    font-size: 21px;
+    line-height: 21px;
 }
 
 
@@ -125,11 +138,21 @@ h3{
     background-color: #FFFFFF;
 }
 
-.feature-item{
-    font-size: 14px;
-    line-height: 21px;
+.feature-item {
     text-align: center;
     list-style: none;
+}
+
+.feature-item h3 {
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.feature-item p{
+    font-size: 14px;
+    line-height: 21px;
+    color:  #333333;
 }
 
 
@@ -141,10 +164,22 @@ h3{
 }
 
 .cause3-4-5-item{
-    font-size: 14px;
-    line-height: 21px;
     text-align: center;
     list-style: none;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.cause3-4-5-item h3{
+    font-size: 21px;
+    line-height: 21px;
+    color:#000000;
+}
+
+.cause3-4-5-item p{
+    font-size: 14px;
+    line-height: 21px;
+    color:#333333;
 }
 
 
@@ -152,14 +187,19 @@ h3{
 /*section*/
 .section{
     text-align: center;
-    font-size: 14px;
-    line-height: 24px;
     background-color: #FFFFFF;
 }
 
-h2{
+.section h2{
     font-size: 30px;
-    line-height: 24px; 
+    line-height: 24px;
+    color:#000000;
+}
+
+.section p {
+    font-size: 14px;
+    line-height: 24px;
+    color:#333333;
 }
 
 
@@ -176,22 +216,23 @@ h2{
 }
 
 .footer-phone{
-
-    color: black;
+    color: #000000;
+    font-size: 21px;
+    line-height: 26px;
 }
 
 .footer-social{
     font-size: 21px;
     line-height: 26px; 
     text-align: center;
-    color: black;
+    color: #000000;
 }
 
 .footer-copyright{
-    font-size: 21px;
+    font-size: 14px;
     line-height: 26px; 
     text-align: center;
-    color: black;
+    color: #000000;
 }
 
 
