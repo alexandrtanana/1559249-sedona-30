@@ -186,12 +186,9 @@ img {
 
 
 
-.main-header-bar{
-    background-color:#FFFFFF;
-    margin-top: 0px;
-    margin-left: auto 0;
+
    
-}
+
 
 
 .site-navigation-current a:not([href]) {
@@ -429,12 +426,10 @@ img {
 
 /*footer*/
 .main-footer{
-    display: grid;
+    
     background-color: #FFFFFF;
-    /* outline: 5px solid rgba(255, 0, 0, 0.7); */
     outline-offset: -5px;
     margin:0;
-    padding: 100;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 160px;
@@ -531,7 +526,6 @@ img {
     margin-left: auto;
     margin-top: 29px;
     margin-bottom: auto;
-    padding-left:;
     border-left:30px;
     display: grid;
     
