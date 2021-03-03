@@ -99,8 +99,8 @@
                            fill="#81B3D2"
                            />
                      </svg>
-                     <h3>Жильё</h3>
-                     <p>Рекомендуем пожить в настоящеммотеле, всё как в кино!</p>
+                     <h3>Жильё </h3>
+                     <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                   </li>
                   <li class="feature-item">
                      <svg
@@ -184,14 +184,42 @@
                </ul>
             </section>
             <section class="section">
-            <h2>Заинтересовались?</h2>
-            <p>
-               Укажите предпологаемые даты поездки,и мы покажем вам лучшие
-               предложения гостиниц в Седоне.
-            </p>
-            <section class="search-button">
-               <button class="search " type="button">Поиск гостиницы в Седоне</button>
+               <h2>Заинтересовались?</h2>
+               <p>
+                  Укажите предпологаемые даты поездки,и мы покажем вам лучшие
+                  предложения гостиниц в Седоне.
+               </p>
+               <section class="search-button">
+                  <button class="search " type="button">Поиск гостиницы в Седоне  </button>
+               </section>
             </section>
+            <!--форма-->
+            <section>
+               <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+                  <p class="search-item1">
+                     <label  for="checkin-date">Дата заезда: </label>
+                     <input id="checkin-date" type="text" name="checkin" placeholder="24 апреля 2017">
+                  </p>
+                  <p class="search-item2">
+                     <label for="checkout-date">Дата выезда: </label>
+                     <input id="checkout-date" type="text" name="checkout" placeholder="4 июля 2017">
+                  </p>
+                  <section class="number">
+                     <p class="search-item3">
+                        <label for="adults-number">Взрослые: </label>
+                        <input id="adults-number" type="number" name="adults" placeholder="2">
+                     </p>
+                     <p class="search-item4">
+                        <label for="children-number">Дети:</label>
+                        <input id="children-number" type="number" name="children" placeholder="0">
+                     </p>
+                  </section>
+                  <section class="search-hotel">
+                     <button class="button-form" type="submit">Найти </button>
+                  </section>
+               </form>
+            </section>
+            <!--форма-->
             <section>
                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d456709.44886778004!2d-111.96370722788829!3d34.90871982040377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1613975740669!5m2!1sru!2sby" width="1199" height="473" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </section>
@@ -236,5 +264,6 @@
             </section>
          </footer>
       </div>
+      <link href="jsstyle.js" rel="stylesheet" />
    </body>
 </html>

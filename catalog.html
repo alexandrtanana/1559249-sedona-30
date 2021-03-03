@@ -38,7 +38,6 @@
             </nav>
          </header>
          <section class="page-background2">
-            <!--chekbox-->
             <section class="filters">
                <section class="column1">
                   <legend>Инфраструктура:</legend>
@@ -62,25 +61,51 @@
                      <label for="apartaments">Апартаменты</label>
                   </ul>
                </section>
+               <section class="form-filter">
+                  <form method="get" action="https://echo.htmlacademy.ru" >
+                     <fieldset class="filter-item">
+                        <legend>Стоимость в сутки(р):</legend>
+                        <section class="range-filter">
+                           <section class="price-controls">
+                              <label class="min-price">
+                              от <input type="text" name="min-price" value="0">
+                              </label>
+                              <section class="input-border"></section>
+                              <label class="max-price">
+                              до <input type="text" name="max-price" value="3000">
+                              </label>
+                           </section>
+                           <section class="range-controls">
+                              <section class="scale">
+                                 <section class="bar"></section>
+                              </section>
+                              <section class="toggle toggle-min"></section>
+                              <section class="toggle toggle-max"></section>
+                           </section>
+                           <button type="submit" class="filter-button button">Показать</button>
+                        </section>
+               </section>
+               </fieldset>
+               </form>
             </section>
-            <!--chekbox-->
-            <!--форма-фильтр-->
-            <!--форма-фильтр-->
+         </section>
          </section>
          <main >
             <section class="result">
                <ul class="result-list">
-                  <h1>Найдено:3</h1>
-                  <h2>Сортировка:</h2>
-                  <li class="result-item">
-                     <a href="blank.html">По цене</a>
-                  </li>
-                  <li class="result-item">
-                     <a href="blank.html">По типу</a>
-                  </li>
-                  <li class="result-item">
-                     <a href="blank.html">По рейтингу</a>
-                  </li>
+                  <section class="list">
+                     <h1>Найдено: 3 </h1>
+                     <h2>Сортировка:</h2>
+                     <li class="result-item">
+                        <a href="blank.html">По цене</a>
+                     </li>
+                     <li class="result-item">
+                        <a href="blank.html">По типу</a>
+                     </li>
+                     <li class="result-item">
+                        <a href="blank.html">По рейтингу</a>
+                     </li>
+                  </section>
                   <section class="up-down">
                      <svg class="up" width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.5 0L0 10H11L5.5 0Z" fill="#CACACA"/>
@@ -104,11 +129,11 @@
                <section class="hotel-list">
                   <h1>Amara Resort & Spa</h1>
                   <section class="hotel-p">
-                     <p class="p1">Гостиница</p>
+                     <p class="p1">Гостиница </p>
                      <p class="p2"> От 4000 р.</p>
                   </section>
                   <section class="button-list">
-                     <a class="button1" href="blank.html">Подробнее</a>
+                     <a class="button1" href="blank.html">Подробнее </a>
                      <a class="button2" href="blank.html">Забронировать</a>
                   </section>
                </section>
@@ -181,20 +206,19 @@
                <p class="visitsedona">#Visitsedona</p>
                <p>
                   <a class="footer-phone" href="tel:+74956660166"
-                     >ТЕЛ: +7(495) 666-01-66</a>
+                     >ТЕЛ: +7(495) 666-01-66</a
+                     >
                </p>
             </section>
             <section class="footer-social">
-               <section class="footer-social">
-                  <a  class="social-button" href="blank.html"><img src="img/twitter.svg"/>
-                  </a>
-                  <a class="social-button" href="blank.html"
-                     ><img src="img/facebook.svg"/>
-                  </a>
-                  <a class="social-button" href="blank.html"
-                     ><img src="img/youtube.svg"/>
-                  </a>
-               </section>
+               <a  class="social-button" href="blank.html"><img src="img/twitter.svg"/>
+               </a>
+               <a class="social-button" href="blank.html"
+                  ><img src="img/facebook.svg"/>
+               </a>
+               <a class="social-button" href="blank.html"
+                  ><img src="img/youtube.svg">
+               </a>
             </section>
             <section class="footer-copyright">
                <p class="websiteby">website by</p>
@@ -205,7 +229,8 @@
                      height="40"
                      viewBox="0 0 114 40"
                      fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
+                     xmlns="http://www.w3.org/2000/svg"
+                     >
                      <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -217,4 +242,4 @@
          </footer>
       </div>
    </body>
-</html
+</html>
