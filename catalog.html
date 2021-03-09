@@ -38,31 +38,52 @@
             </nav>
          </header>
          <section class="page-background2">
+
+
             <section class="filters">
-               <section class="column1">
+               <form class="filter" method="get" action="https://echo.htmlacademy.ru"></form>
+               <fieldset class="fildset-filter1">
                   <legend>Инфраструктура:</legend>
-                  <ul class="column-list">
-                     <li><input class="input-checkbox" type="checkbox" name="pool" id="pool" checked ></input></li>
-                     <label for="pool">Бассейн</label>
-                     <li><input class="input-checkbox" type="checkbox" name="parking" id="parking" ></input></li>
-                     <label for="parking">Парковка</label>
-                     <li><input class="input-checkbox" type="checkbox" name="Wi-Fi" id="Wi-Fi" ></input></li>
-                     <label for="Wi-Fi">Wi-Fi</label>
-                  </ul>
-               </section>
-               <section class="column2">
+                  
+                     
+                     <label class="check option"  for="filter-pool">
+                        <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="pool" id="filter-pool" checked ></input> 
+                          <span class="check_box"></span>
+                        Бассейн</label>
+                     
+                     <label class="check option" for="filter-parking">
+                        <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="parking" id="filter-parking" ></input>
+                        <span class="check_box"></span>
+                        Парковка</label>
+                     
+                     <label class="check option" for="filter-Wi-Fi">
+                        <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="Wi-Fi" id="filter-Wi-Fi" ></input>
+                        <span class="check_box"></span>
+                        Wi-Fi</label>
+                
+               </fieldset>
+
+               <fieldset class="fildset-filter2">
                   <legend>Тип жилья:</legend>
-                  <ul class="column-list">
-                     <li><input class="input-checkbox" type="checkbox" name="hotel" id="hotel" checked></input></li>
-                     <label  for="hotel">Гостиница</label>
-                     <li><input class="input-checkbox"  type="checkbox" name="motel" id="motel" checked></input></li>
-                     <label for="motel">Мотель</label>
-                     <li><input class="input-checkbox" type="checkbox" name="apartaments" id="apartaments" checked></input></li>
-                     <label for="apartaments">Апартаменты</label>
-                  </ul>
-               </section>
-               <section class="form-filter">
-                  <form method="get" action="https://echo.htmlacademy.ru" >
+                  
+                     
+                     <label class="check option" for="filter-hotel">
+                        <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="hotel" id="filter-hotel" checked></input>
+                        <span class="check_box"></span> Гостиница</label>
+                     
+                     <label class="check option" for="filter-motel">
+                        <input class="visually-hidden filter-input-checkbox filter-input"  type="checkbox" name="motel" id="filter-motel" checked></input>
+                        <span class="check_box"></span>Мотель</label>
+                     
+                     <label class="check option" for="filter-apartaments"> 
+                        <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="apartaments" id="filter-apartaments" checked></input>
+                        <span class="check_box"></span>Апартаменты</label>
+                     
+               </fieldset>
+
+
+               
+                  
                      <fieldset class="filter-item">
                         <legend>Стоимость в сутки(р):</legend>
                         <section class="range-filter">
@@ -85,7 +106,7 @@
                            <button type="submit" class="filter-button button">Показать</button>
                         </section>
                </section>
-               </fieldset>
+               
                </form>
             </section>
          </section>

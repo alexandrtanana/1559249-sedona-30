@@ -670,50 +670,67 @@ a {
 .filters {
     display: flex;
     flex-direction: row;
-    padding-top: 26.5px;
-    width: 600px;  
+    padding-top: 20px;
+    width: 1200px;  
+    height: 217px;
 }
 
-.column1 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 72px;
+.fildset-filter1{
+   border: none;
+    margin-left: 56px;
     color: #FFFFFF;
-    font-size: 14px;
-    line-height: 21px;
 }
 
-.column2 {
-    margin-left: 119px;
+.fildset-filter2{
+    border: none;
+    margin-left: 110px;
     color: #FFFFFF;
+}
+
+
+.option{
+    display: block;
+    
+    cursor: pointer;
+    margin-top: 27px;
+    margin-left: 30px;
     font-size: 14px;
-    line-height: 21px;
+  
 }
 
-
-.column-list {
-    list-style: none;
-}
-
-.input-checkbox+label::before {
-    content: "";
+.check_box{
+    
     position: absolute;
-    left: -42px;
-    top: 0;
-    width: 16px;
+    width: 23px;
+    height: 23px;
+    background-image:url("..//img/Shape-checbox.svg");
+    margin-left: -30px;
+    
+    
+}
+
+.filter-input:checked+.check_box{
+    
+    
+    background-image: url("..//img/Shape-checbox-background.svg");
+    width: 21px;
     height: 16px;
-    border: 2px solid #000000; 
 }
 
-.input-checkbox+label::after {
-    content: "";
+
+
+
+.filter-input{
     position: absolute;
-    top: 4px;
-    left: -38px;
-    width: 12px;
-    height: 12px;
-    background-color: #FFFFFF;
+    -webkit-appearance: none;
+            -moz-appearance: none;   
+            appearance: none;     
 }
+
+
+
+
+
 
 
 
@@ -723,7 +740,11 @@ a {
     padding: 0;
     border: none;
     width: 260px;
-    margin: 0px 380px;  
+    
+    margin-left:335px; 
+    
+    
+    
 }
   
 .range-filter {
