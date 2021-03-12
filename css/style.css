@@ -15,7 +15,7 @@
 
 
 .page-body {
-    min-width: 1280px;
+    
     margin: 0;
     padding: 0;
     font-family: "PT Sans", sans-serif;
@@ -26,20 +26,20 @@
 }
 
 .page-background1 {
+    
     background-image: url("..//img/background\ photo.jpg");
-    width: 1200px;
     height: 509px;
 }
 
 .page-background2 {
     background-image: url("..//img/background.jpg");
-    width: 1200px;
-    height: 217px;
+   display: flex;
+   
 }
 
 .svg1 {
-    position: absolute;
-    margin-top: 453px;
+    position: relative;
+    top: 100px;
 }
 
 a {
@@ -69,9 +69,9 @@ a {
 }
 
 .welcome {
-    position: absolute;
-    margin-left: 371.38px;
-    margin-top: 77.35px; 
+    position: relative;
+   left: 371px;
+   top:78px;
 }
 
 
@@ -161,17 +161,23 @@ a {
     display: flex;
     flex-direction: row;
     background-color: #81B3D2;
+    
     text-align: center;
     color: #FFFFFF; 
     flex-wrap: wrap; 
+    
+    width: auto;
+   
 }
 
 .cause1-image{
     background-color: #EEEEEE;
+    
 }
 
 .cause1-item {
-    width: 400px;
+    display: flex;
+    flex-direction: row;
 }
 
 .cause1 h3 {
@@ -182,7 +188,6 @@ a {
     margin-left: 139px;
     margin-right: 139px;
     font-weight: 700;
-    flex-wrap: wrap; 
 }
 
 .cause1 p {
@@ -192,7 +197,7 @@ a {
     flex-direction: column;
     align-self: center;
     margin-left: 52px;
-    flex-wrap: wrap; 
+    
     margin-right: 51px;
     margin-top: 25px;
 }
@@ -206,7 +211,9 @@ a {
 }
 
 .cause2-image{
+    display: flex;
     background-color: #9e9e9e;
+  
 }
 
 .cause2 h3 {
@@ -244,27 +251,34 @@ a {
     margin: 0;
     padding: 0;
     list-style: none;
+    position: relative;
+   
 }
 
 .feature-item {
     display: grid;
     justify-content: center;
     text-align: center; 
+   
+    
 }
 
 .feature-svg {
     display: grid;
-    margin-left: 162px;
-    margin-top: 64px; 
+    position: relative;
+    left: 162px;
+    top: 64px; 
 }
 
 .feature-item h3 {
     display: grid;
     font-size: 21px;
     line-height: 21px;
-    margin-top: 20px;
+    margin-top: 90px;
     margin-left: 60px;
     margin-right: 50px;
+    
+    
 }
 
 .feature-item p {
@@ -272,10 +286,13 @@ a {
     font-size: 14px;
     line-height: 25px;
     color: #333333; 
-    margin-top: 0;
-    padding-bottom: 63px;
+   
+    margin-bottom: 63px;
     margin-left: 60px;
-    margin-right: 55px;    
+    margin-right: 55px; 
+    
+   
+    
 }
 
 
@@ -613,11 +630,12 @@ a {
     line-height: 26px; 
     display: flex;
     flex-direction: row;
-    align-self: center;
+    justify-content: center;
     flex-wrap: wrap; 
     margin-right: 30px;
     margin-top: 25px;
     margin-bottom: 30px;
+    width: 280px; 
 }
 
 
@@ -667,39 +685,46 @@ a {
 
 
 
+
+
 .filters {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
-    width: 1200px;  
-    height: 217px;
+    
 }
 
 .fildset-filter1{
+    
+    margin-top:20px;
+    margin-bottom: 31px;
    border: none;
     margin-left: 56px;
     color: #FFFFFF;
+    
+    
 }
 
 .fildset-filter2{
+    margin-top:20px;
+    margin-bottom: 31px;
     border: none;
     margin-left: 110px;
     color: #FFFFFF;
+   
 }
 
 
 .option{
     display: block;
-    
     cursor: pointer;
     margin-top: 27px;
     margin-left: 30px;
     font-size: 14px;
-  
+    width: 100px;
+    
 }
 
 .check_box{
-    
     position: absolute;
     width: 23px;
     height: 23px;
@@ -724,7 +749,8 @@ a {
     position: absolute;
     -webkit-appearance: none;
             -moz-appearance: none;   
-            appearance: none;     
+            appearance: none;
+                 
 }
 
 
@@ -736,14 +762,17 @@ a {
 
 
 .filter-item {
+    position: relative;
     margin: 0;
     padding: 0;
     border: none;
     width: 260px;
-    margin-left:335px; 
+    left:330px; 
+   
     
 }
-  
+
+
 .range-filter {
     width: 317px;
     margin-top: 11px;
@@ -875,9 +904,11 @@ a {
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
-    margin-bottom: 1px;
     flex-wrap: wrap;
+    
+   
 }
+
 
 .list {
     display: flex; 
