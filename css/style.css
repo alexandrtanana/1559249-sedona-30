@@ -16,15 +16,15 @@
 
 .page-body {
     
-    margin: 0;
-    padding: 0;
+    margin-left: 310px;
+    margin-right: 310px;
     font-family: "PT Sans", sans-serif;
     text-transform: uppercase;
     background-position: top center;
     background-repeat: no-repeat;
     min-height: 100%;   
     background-color: #EEEEEE; 
-    
+    width: 1280px;
 }
 
 .page-background1 {
@@ -37,12 +37,12 @@
     background-image: url("..//img/background.jpg");
    display: flex;
    background-size:cover;
-   
 }
 
 .svg1 {
     position: relative;
-    top: 100px;
+    top: 98px;
+    
 }
 
 a {
@@ -416,7 +416,6 @@ a {
     font-weight: bold;
     
     box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
-    /* outline: 3px solid rgb(235, 4, 4);  */
 }
 
 .form {
@@ -431,7 +430,6 @@ a {
     margin-top: 55px;
     font-size: 14px;
     line-height: 26px;
-    /* outline: 3px solid rgb(235, 4, 4); */
     
     display: flex;
 }
@@ -440,7 +438,6 @@ a {
 .search-item1 label{
    
     padding-top: 4px;
-    /* outline: 3px solid rgb(235, 4, 4);  */
     padding-left: 55px;
     padding-right: 21px;
 }
@@ -456,7 +453,6 @@ a {
     line-height: 26px;
     padding-left: 13px;
     padding-right: 40px;
-    /* outline: 3px solid rgb(235, 4, 4); */
     width: 295px;
 }
 .search-item1 input:hover { 
@@ -471,12 +467,10 @@ a {
     margin-right: 30px;
     font-size: 14px;
     line-height: 26px;
-    /* outline: 3px solid rgb(235, 4, 4);  */
     display: flex;
     
 }
 .search-item2 label{
-    /* outline: 3px solid rgb(235, 4, 4);  */
     padding-right: 21px;
         padding-top: 4px;
         
@@ -487,7 +481,6 @@ a {
     position: relative;
     left:-30px;
     top: 8px;
-    /* outline: 3px solid rgb(235, 4, 4);  */
     
 }
 
@@ -503,7 +496,6 @@ a {
     border: none;
     padding-left: 5px;
     padding-right: 5px;
-    /* outline: 3px solid rgb(235, 4, 4);  */
     
     
 }
@@ -511,7 +503,6 @@ a {
 .plus{
     position: relative;
     justify-content: center;
-    /* outline: 3px solid rgb(235, 4, 4);  */
     height: 38px;
     
     border: none;
@@ -534,7 +525,6 @@ a {
     line-height: 26px;
     padding-left: 13px;
     padding-right: 40px;
-    /* outline: 3px solid rgb(235, 4, 4);  */
 }
 
 .search-item2 input:hover {
@@ -552,7 +542,6 @@ a {
 .number {
     display: flex;
     flex-direction: row;
-    /* outline: 3px solid rgb(235, 4, 4);  */
     
     font-size: 14px;
     line-height: 26px;
@@ -569,7 +558,6 @@ input::-webkit-inner-spin-button {
 
 
 .search-item3{
-    /* outline: 3px solid rgb(235, 4, 4);  */
     display: flex; 
 }
 
@@ -586,12 +574,10 @@ input::-webkit-inner-spin-button {
     line-height: 26px;
     margin: 0;
     padding: 0; 
-    /* outline: 3px solid rgb(235, 4, 4);  */
     
 }
 
 .search-item3 label{
-    /* outline: 3px solid rgb(235, 4, 4);  */
     padding-right: 28px;
     display: flex;
     padding-left:55px;
@@ -608,7 +594,6 @@ input::-webkit-inner-spin-button {
 
 
 .search-item4 label {
-    /* outline: 3px solid rgb(235, 4, 4);  */
     padding-right: 27px;
     
     display: flex;
@@ -617,7 +602,6 @@ input::-webkit-inner-spin-button {
 }
 
 .search-item4{
-    /* outline: 3px solid rgb(235, 4, 4);  */
     margin-left: 72px;
     display: flex;
     
@@ -626,7 +610,6 @@ input::-webkit-inner-spin-button {
 .search-item4 input {
     width: 54px;
     height: 38px;
-    /* outline: 3px solid rgb(235, 4, 4);  */
     text-align: center;
     background-color:#F2F2F2;
     border: none;
@@ -651,7 +634,6 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* outline: 3px solid rgb(235, 4, 4); */
     text-align: center;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -697,17 +679,14 @@ input::-webkit-inner-spin-button {
     justify-content: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
 .footer-contacts {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left:43px ;
+    margin-left: 80px;
     flex-wrap: wrap;  
-    
-    
 }
 
 .footer-phone {
@@ -719,7 +698,6 @@ input::-webkit-inner-spin-button {
     justify-content: center;
     font-weight: 700; 
     flex-wrap: wrap;
-   
     margin-left: 10px;
 }
 
@@ -728,10 +706,11 @@ input::-webkit-inner-spin-button {
     flex-direction: row;
     justify-content: center; 
     font-weight: bold;
-    
     font-size: 21px;
     line-height: 26px;
     margin-left: 11px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 .footer-social {
@@ -758,9 +737,9 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-direction: row;
     align-content: center;
-    margin-right: 81px;
+    margin-right: 96px;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 28px;
     margin-bottom: 20px;
     width: 220px;
     
@@ -778,7 +757,8 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-direction:row;
     justify-content:center; 
-    margin: 3px;
+    margin-top: 6px;
+    margin-right: 8px;
     flex-wrap: wrap;
     width: 46px;
     height: 48px; 
@@ -814,23 +794,23 @@ input::-webkit-inner-spin-button {
 .fildset-filter1{
     
     margin-top: 23px;
-    margin-bottom: 31px;
+    
     border: none;
     margin-left: 59px;
     color: #FFFFFF;
     align-items: start;
- 
+    padding-bottom: 41px;
     
 }
 
 .fildset-filter2{
     margin-top: 23px;
-    margin-bottom: 31px;
+    
     border: none;
     margin-left: 94px;
     color: #FFFFFF;
     align-items: start;
-    
+    padding-bottom: 41px;
 }
 
 
@@ -1173,7 +1153,7 @@ input::-webkit-inner-spin-button {
     flex-direction: row;
     justify-content: flex-start;
     cursor: pointer;
-    padding-top: 23.5px;
+    padding-top: 16px;
     margin: 0;
     flex-wrap: wrap; 
 }
