@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Гостиницы</title>
       <link
          href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
          rel="stylesheet"
          />
-      <link href="css/normalize.css" rel="stylesheet" />
-      <link href="css/min.style.css" rel="stylesheet" />
-      <link rel="icon" href="favicon.ico" />
-      <link rel="icon" href="favicon/32.png" type="image/png+×ml" />
-      <link rel="apple-touch-icon" href="favicon/32.png" />
-      <link rel="manifest" href="manifest.webmanifest" />
+      <link href="css/normalize.css" rel="stylesheet"/>
+      <link href="css/style.css" rel="stylesheet"/>
+      <link rel="icon" href="favicon.ico"/>
+      <link rel="icon" href="favicon/32.png" type="image/png"/>
+      <link rel="apple-touch-icon" href="favicon/32.png"/>
+      <link rel="manifest" href="manifest.webmanifest"/>
    </head>
    <body class="page-body" >
       <div class="container">
@@ -37,82 +37,76 @@
                </ul>
             </nav>
          </header>
-         <section class="page-background2">
-            <section class="filters">
-               <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+         <div class="page-background2">
+            <div class="filters">
+               <form class="filter" method="get" action="https://echo.htmlacademy.ru/">
                   <fieldset class="fildset-filter1">
                      <legend>Инфраструктура:</legend>
-                     <label class="check option"  for="filter-pool">
-                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="pool" id="filter-pool" checked ></input> 
+                     <label class="check option" for="filter-pool">
+                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="pool" id="filter-pool" checked> 
                      <span class="check_box"></span>
                      Бассейн</label>
                      <label class="check option" for="filter-parking">
-                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="parking" id="filter-parking" ></input>
+                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="parking" id="filter-parking" >
                      <span class="check_box"></span>
                      Парковка</label>
                      <label class="check option" for="filter-Wi-Fi">
-                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="Wi-Fi" id="filter-Wi-Fi" ></input>
+                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="Wi-Fi" id="filter-Wi-Fi">
                      <span class="check_box"></span>
                      Wi-Fi</label>
-               </form>
-               </fieldset>
-               <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+                  </fieldset>
                   <fieldset class="fildset-filter2">
                      <legend>Тип жилья:</legend>
                      <label class="check option" for="filter-hotel">
-                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="hotel" id="filter-hotel" checked></input>
+                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="hotel" id="filter-hotel" checked>
                      <span class="check_box"></span> Гостиница</label>
                      <label class="check option" for="filter-motel">
-                     <input class="visually-hidden filter-input-checkbox filter-input"  type="checkbox" name="motel" id="filter-motel" checked></input>
+                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="motel" id="filter-motel" checked>
                      <span class="check_box"></span>Мотель</label>
                      <label class="check option" for="filter-apartaments"> 
-                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="apartaments" id="filter-apartaments" checked></input>
+                     <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="apartaments" id="filter-apartaments" checked>
                      <span class="check_box"></span>Апартаменты</label>
                   </fieldset>
+                  <fieldset class="filter-item">
+                     <legend>Стоимость в сутки(р):</legend>
+                     <div class="range-filter">
+                        <div class="price-controls">
+                           <label class="min-price">
+                           от <input type="text" name="min-price" value="0">
+                           </label>
+                           <div class="input-border"></div>
+                           <label class="max-price">
+                           до <input type="text" name="max-price" value="3000">
+                           </label>
+                        </div>
+                        <div class="range-controls">
+                           <div class="scale">
+                              <div class="bar"></div>
+                           </div>
+                           <div class="toggle toggle-min"></div>
+                           <div class="toggle toggle-max"></div>
+                        </div>
+                     </div>
+                     <button type="submit" class="filter-button button">Показать</button>
+                  </fieldset>
                </form>
-               <fieldset class="filter-item">
-               <legend>Стоимость в сутки(р):</legend>
-               <section class="range-filter">
-                  <section class="price-controls">
-                     <label class="min-price">
-                     от <input type="text" name="min-price" value="0">
-                     </label>
-                     <section class="input-border"></section>
-                     <label class="max-price">
-                     до <input type="text" name="max-price" value="3000">
-                     </label>
-                  </section>
-                  <section class="range-controls">
-                     <section class="scale">
-                        <section class="bar"></section>
-                     </section>
-                     <section class="toggle toggle-min"></section>
-                     <section class="toggle toggle-max"></section>
-                  </section>
-                  <button type="submit" class="filter-button button">Показать</button>
-               </section>
-            </section>
-            </form>
-         </section>
-         </section>
-         </section>
-         <main >
-            <section class="result">
+            </div>
+         </div>
+         <main>
+            <div class="result">
                <ul class="result-list">
-                  <section class="list">
-                     <h1>Найдено: 3 </h1>
-                     <h2>Сортировка:</h2>
-                     <li class="result-item">
-                        <a href="blank.html">По цене</a>
-                     </li>
-                     <li class="result-item">
-                        <a href="blank.html">По типу</a>
-                     </li>
-                     <li class="result-item">
-                        <a href="blank.html">По рейтингу</a>
-                     </li>
-                  </section>
-                  <section class="up-down">
+                  <li class="h2">Найдено: 3 </li>
+                  <li class="h3">Сортировка:</li>
+                  <li class="result-item">
+                     <a href="blank.html">По цене</a>
+                  </li>
+                  <li class="result-item">
+                     <a href="blank.html">По типу</a>
+                  </li>
+                  <li class="result-item">
+                     <a href="blank.html">По рейтингу</a>
+                  </li>
+                  <li class="up-down">
                      <button class="up">
                         <svg  width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <path d="M5.5 0L0 10H11L5.5 0Z" fill="#CACACA"/>
@@ -123,116 +117,114 @@
                            <path d="M5.5 10L0 0H11" fill="#81B3D2"/>
                         </svg>
                      </button>
-                  </section>
+                  </li>
                </ul>
-            </section>
+            </div>
             <section class="hotel">
-               <section>
-                  <img
-                     class="img-hotel"
-                     src="img/Layer 21.jpg"
-                     width="135"
-                     height="90"
-                     alt="Гостиница"
-                     />
-               </section>
-               <section class="hotel-list">
+               <img
+                  class="img-hotel"
+                  src="img/layer_21.jpg"
+                  width="135"
+                  height="90"
+                  alt="Гостиница"
+                  />
+               <div class="hotel-list">
                   <h1>Amara Resort & Spa</h1>
-                  <section class="hotel-p">
+                  <div class="hotel-p">
                      <p class="p1">Гостиница </p>
                      <p class="p2"> От 4000 р.</p>
-                  </section>
-                  <section class="button-list">
+                  </div>
+                  <div class="button-list">
                      <a class="button1" href="blank.html">Подробнее </a>
                      <a class="button2" href="blank.html">Забронировать</a>
-                  </section>
-               </section>
-               <section class="rating-hotel">
-                  <section class="rating-star">
-                     <img class="star" src="img\star.svg">
-                     <img class="star" src="img\star.svg">
-                     <img class="star" src="img\star.svg">
-                     <img class="star" src="img\star.svg">
-                  </section>
+                  </div>
+               </div>
+               <div class="rating-hotel">
+                  <div class="rating-star">
+                     <img class="star" src="img/star.svg" alt="рейтинговая звезда" width="18" height="17">
+                     <img class="star" src="img/star.svg" alt="рейтинговая звезда" width="18" height="17">
+                     <img class="star" src="img/star.svg" alt="рейтинговая звезда" width="18" height="17">
+                     <img class="star" src="img/star.svg" alt="рейтинговая звезда" width="18" height="17">
+                  </div>
                   <p>Рейтинг: 8.5</p>
-               </section>
+               </div>
             </section>
             <section class="hotel">
                <img class="img-hotel"
-                  src="img/Layer 89 copy.jpg"
+                  src="img/layer_89.jpg"
                   width="135"
                   height="90"
                   alt="Мотель"/>
-               <section class="hotel-list">
+               <div class="hotel-list">
                   <h1>Desert Quail Inn</h1>
-                  <section class="hotel-p">
+                  <div class="hotel-p">
                      <p class="p1">Мотель</p>
                      <p class="p2">От 3000 р.</p>
-                  </section>
-                  <section class="button-list">
+                  </div>
+                  <div class="button-list">
                      <a class="button1" href="blank.html">Подробнее</a>
                      <a class="button2" href="blank.html">Забронировать</a>
-                  </section>
-               </section>
-               <section class="rating-hotel">
-                  <section class="rating-star">
-                     <img class="star" src="img\star.svg">
-                     <img class="star" src="img\star.svg">
-                     <img class="star" src="img\star.svg">
-                  </section>
+                  </div>
+               </div>
+               <div class="rating-hotel">
+                  <div class="rating-star">
+                     <img class="star" src="img/star.svg" alt="рейтинговая звезда" width="18" height="17">
+                     <img class="star" src="img/star.svg" alt="рейтинговая звезда" width="18" height="17">
+                     <img class="star" src="img/star.svg" alt="рейтинговая звезда" width="18" height="17">
+                  </div>
                   <p>Рейтинг: 8.9</p>
-               </section>
+               </div>
             </section>
             <section class="hotel">
                <img
                   class="img-hotel"
-                  src="img/Rectangle.jpg"
+                  src="img/rectangle.jpg"
                   width="135"
                   height="90"
                   alt="Апартаменты"
                   />
-               <section class="hotel-list">
+               <div class="hotel-list">
                   <h1>Villas at Poco Diablo</h1>
-                  <section class="hotel-p">
+                  <div class="hotel-p">
                      <p class="p1">Апартаменты</p>
                      <p class="p2">От 2000 р.</p>
-                  </section>
-                  <section class="button-list">
+                  </div>
+                  <div class="button-list">
                      <a class="button1" href="blank.html">Подробнее</a>
                      <a class="button2" href="blank.html">Забронировать</a>
-                  </section>
-               </section>
-               <section class="rating-hotel">
-                  <section class="rating-star">
-                     <img class="star" src="img\star.svg">
-                     <img class="star" src="img\star.svg">
-                  </section>
+                  </div>
+               </div>
+               <div class="rating-hotel">
+                  <div class="rating-star">
+                     <img class="star" src="img/star.svg" alt="рейтинговая звезда" width="18" height="17">
+                     <img class="star" src="img/star.svg" alt="рейтинговая звезда" width="18" height="17">
+                  </div>
                   <p>Рейтинг: 9.2</p>
-               </section>
+               </div>
             </section>
          </main>
          <footer class="main-footer">
-            <section class="footer-contacts">
+            <div class="footer-contacts">
                <p class="visitsedona">#Visitsedona</p>
                <p>
                   <a class="footer-phone" href="tel:+74956660166"
                      >ТЕЛ: +7(495) 666-01-66</a
                      >
                </p>
-            </section>
-            <section class="footer-social">
-               <a  class="social-button" href="blank.html"><img src="img/twitter.svg"/>
+            </div>
+            <div class="footer-social">
+               <a  class="social-button" href="blank.html"><img src="img/twitter.svg" alt="твиттер" />
                </a>
                <a class="social-button" href="blank.html"
-                  ><img src="img/facebook.svg"/>
+                  ><img src="img/facebook.svg" alt="фейсбук"/>
                </a>
                <a class="social-button" href="blank.html"
-                  ><img src="img/youtube.svg">
+                  ><img src="img/youtube.svg" alt="ютуб">
                </a>
-            </section>
-            <section class="footer-copyright">
+            </div>
+            <div class="footer-copyright">
                <p class="websiteby">website by</p>
-               <a class="button" href="https://htmlacademy.ru"
+               <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"
                   >
                   <svg
                      width="114"
@@ -248,9 +240,9 @@
                         fill="#231F20"/>
                   </svg>
                </a>
-            </section>
+            </div>
          </footer>
+         <link href="jsstyle.js" rel="stylesheet"/>
       </div>
-      <link href="jsstyle.js" rel="stylesheet" />
    </body>
 </html>
