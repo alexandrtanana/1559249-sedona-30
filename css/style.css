@@ -555,17 +555,11 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     background-color: #EEEEEE;
 }
 /*footer*/
-
 .main-footer {
-    
     display: flex;
     flex-direction: row;
-    
     flex-wrap: wrap;
- 
-   
 }
-
 .index-footer{
     display: flex;
     flex-direction: row;
@@ -577,7 +571,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     background: rgba(255, 255, 255, 0.9);
     top: 2642px;
 }
-    
 .catalog-footer{
     display: flex;
     flex-direction: row;
@@ -587,8 +580,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     background: rgba(255, 255, 255, 0.9);
     padding-top: 4px;
 }
-
-
 .footer-contacts {
     display: flex;
     flex-direction: column;
@@ -607,7 +598,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     flex-wrap: wrap;
     margin-left: 10px;
 }
-.visitsedona {
+.visit-sedona {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -644,7 +635,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     margin-bottom: 20px;
     width: 220px;
 }
-.websiteby {
+.website-by {
     margin: 11px;
     width: 80px;
 }
@@ -704,8 +695,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     line-height: 21px;
     width: 100px;
 }
-
-.check_box{
+.check-box{
     position: absolute;
     width: 23px;
     height: 23px;
