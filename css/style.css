@@ -6,8 +6,6 @@
     background: #F2F2F2;
     background: #333333;
     background: #888888;
-   /* outline: 3px solid rgb(235, 4, 4);
-    */
 }
 .page-body {
     font-family: "PT Sans","Arial", sans-serif ;
@@ -48,12 +46,12 @@ a {
     padding: 0;
     margin: 0;
     list-style: none;
-    height: 58px;
+    height: 56px;
 }
 .welcome {
     position: relative;
-    left: 371px;
-    top: 75px;
+    left: 372px;
+    top: 77px;
 }
 /*sedona*/
 .sedona {
@@ -64,7 +62,7 @@ a {
     text-align: center;
     font-size: 21px;
     line-height: 26px;
-    margin-top: 42.5px ;
+    margin-top: 43px;
     margin-left: 365px;
     margin-right: 365px;
     font-weight: 700;
@@ -184,7 +182,7 @@ a {
     align-self: center;
     margin-left: 52px;
     margin-right: 48px;
-    margin-top: 27px;
+    margin-top: 26px;
 }
 .cause2 {
     display: flex;
@@ -217,7 +215,7 @@ a {
     margin-left: 50px;
     margin-right: 49px;
     flex-wrap: wrap;
-    margin-top: 28px;
+    margin-top: 27px;
 }
 /*feature*/
 .feature-list {
@@ -248,14 +246,14 @@ a {
     margin-top: 83px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
 .feature-item p {
     display: grid;
     font-size: 14px;
     line-height: 21px;
     color: #333333;
-    margin-bottom: 82px;
+    margin-bottom: 81px;
     margin-left: 60px;
     margin-right: 55px;
 }
@@ -276,7 +274,7 @@ a {
     text-align: center;
     flex-wrap: wrap;
     margin-top: 25px;
-    margin-bottom: 45px;
+    margin-bottom: 44px;
 }
 .cause345-item h3 {
     font-size: 21px;
@@ -291,9 +289,9 @@ a {
     font-size: 14px;
     line-height: 21px;
     flex-wrap: wrap;
-    margin-left: 69px;
+    margin-left: 70px;
     margin-right: 69px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 /*section*/
 .section {
@@ -578,7 +576,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     flex-wrap: wrap;
     justify-content: space-around;
     background: rgba(255, 255, 255, 0.9);
-    padding-top: 4px;
+    padding-top: 1px;
 }
 .footer-contacts {
     display: flex;
@@ -675,7 +673,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     border: none;
     margin-left: 59px;
     color: #FFFFFF;
-    padding-bottom: 33px;
+    padding-bottom: 29px;
 }
 .fildset-filter2{
     display: flex;
@@ -684,7 +682,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     border: none;
     margin-left: 94px;
     color: #FFFFFF;
-    padding-bottom: 33px;
+    padding-bottom: 30px;
 }
 .option{
     display: block;
@@ -924,8 +922,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     justify-content: row;
     text-align: center;
     background-color: #FFFFFF;
-    outline: 1px solid rgb(229,229,229,1);
     flex-wrap: wrap;
+    border-top: 1px solid rgb(229,229,229,1);
+    border-bottom: 1px solid rgb(229,229,229,1);
 }
 .hotel-list {
     display: flex;
