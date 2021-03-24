@@ -700,7 +700,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     background-image:url("..//img/checkbox_off.svg");
     margin-left: -30px;
 }
-.filter-input:checked+.check_box{
+.filter-input:checked+.check-box{
     background-image: url("..//img/checkbox_on.svg");
     width: 26px;
     height: 23px;
