@@ -413,7 +413,7 @@ a {
     display: flex;
 }
 .search-item2 label {
-    padding-right: 18px;
+    padding-right: 19px;
     padding-top: 4px;
     padding-left: 55px;
     font-size: 14px;
@@ -816,7 +816,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     color: #FFFFFF;
     margin-right: 34px;
 }
-.legend {  
+.legend {
     display: flex;
     position: relative;
     top: 3px;
